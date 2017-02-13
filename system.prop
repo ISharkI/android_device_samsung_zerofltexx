@@ -10,3 +10,4 @@ ro.use_data_netmgrd=false
 persist.data.netmgrd.qos.enable=false
 ro.ril.hsxpa=1
 ro.ril.gprsclass=10
+camera.hal1.packagelist=com.skype.raider,com.google.android.talk,com.whatsapp,com.snapchat.android,com.instagram.android
