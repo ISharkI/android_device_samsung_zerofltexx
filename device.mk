@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ril/sbin/cbd:root/sbin/cbd
 
 # Inherit from zero-common
-$(call inherit-product, device/samsung/zero-common/zero-common.mk)
+$(call inherit-product, device/samsung/zero-common/common-device.mk)
 
 # Proprietary
 $(call inherit-product, device/samsung/zerofltexx/proprietary.mk)
