@@ -19,10 +19,6 @@ LOCAL_PATH := device/samsung/zerofltexx
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Carrier init
-PRODUCT_PACKAGES += \
-    init.carrier.rc
-
 # Set usb type
 ADDITIONAL_DEFAULT_PROPERTIES += \
     persist.service.adb.enable=1 \
