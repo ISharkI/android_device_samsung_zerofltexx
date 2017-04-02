@@ -17,12 +17,3 @@
 # Prebuilt libraries that are needed to build open-source libraries
 
 BLOB_PATH := device/samsung/zerofltexx/proprietary
-
-
-# Audio
-#lib_DNSe_EP_ver216c.so
-#lib_DNSe_NRSS_ver226.so
-
-# Mobicore
-PRODUCT_COPY_FILES += \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff000000000000000000000028.tlbin:system/app/mcRegistry/ffffffff000000000000000000000028.tlbin
