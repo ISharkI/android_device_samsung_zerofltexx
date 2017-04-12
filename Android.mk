@@ -22,7 +22,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter zerofltexx zeroflte zerofltebmc zerofltetmo zerofltecan,$(TARGET_DEVICE)),)
+ifneq ($(filter zerofltexx zeroflte zerofltebmc,$(TARGET_DEVICE)),)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 

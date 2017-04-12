@@ -24,7 +24,7 @@
 include device/samsung/zero-common/common-board.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte,zerofltebmc,zerofltetmo,zerofltecan
+TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte,zerofltebmc
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_zerofltexx_defconfig
