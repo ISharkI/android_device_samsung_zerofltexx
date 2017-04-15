@@ -26,10 +26,6 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.secure=0 \
     ro.allow.mock.location=1
 
-# cpboot daemon
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/ril/sbin/cbd:root/sbin/cbd
-
 # Inherit from zero-common
 $(call inherit-product, device/samsung/zero-common/common-device.mk)
 
